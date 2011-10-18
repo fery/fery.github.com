@@ -75,17 +75,12 @@ q:after {
 .group:after {
   visibility: hidden;
   display:    block;
-  font-size:  0;
+  fot-size:  0;
   content:    " ";
   clear:      both;
   height:     0;
 }
 
-::selection {
-  background: #ef3e5b;
-  color: white;
-  text-shadow: none;
-}
 
 abbr[title*="Note well"] {
   font-family:    "Helvetica Neue", Helvetica, Calibri, Arial;
@@ -114,16 +109,11 @@ section#masthead p {
 
 section#masthead h1 {
   font:        italic 2em "ff-tisa-web-pro-1","ff-tisa-web-pro-2";
-  float:       left;
+   float:      right;
   width:       39.45%;
   text-align:  right;
   padding-top: .75em;
   text-shadow: 1px 1px rgba(190, 190, 190, 0.6);
-}
-
-section#masthead header img {
-  float:   right;
-  padding-top: 15px;
 }
 
 section#masthead header p {
@@ -156,17 +146,14 @@ section#content {
 
 section#sidebar {
   float: right;
-  width: 30.75%;
+  width: 33%;
 }
 
 section.meta {
   float: left;
-  width: 42%;
+  width: 50%;
 }
 
-section#meta-col1 {
-  margin-right: 20px;
-}
 
 section#meta-col2 {
   padding-bottom: 100px;
@@ -177,13 +164,72 @@ nav#extra ul li, nav#site ul li {
   text-transform: uppercase;
 }
 
-.icon {
-  padding:  3px 0 5px 28px;
+nav.icon-pannel {
+  float: right;
+}
+
+nav ul.icons {
+   list-style: none;
+   height: 40px;
+   width: 100%;
+   margin-top: 10px;
+}
+
+nav ul.icons li.icon {
+   float: left;
+   margin-left: 20px;
+}
+
+nav ul.icons li.icon a b {
+  float:left; 
+  display:block; 
+  padding:7px 0px 0 8px;
+  font-family: "Helvetica Neue", Helvetica, Calibri, Arial;
+  font-size: 110%; 
+}
+
+nav ul.icons li.icon a {
+  font-size: 120%;
+}
+
+nav ul.icons li em {
+  display:block; 
+  float:left; 
+  width:30px; 
+  height:40px; 
   background-repeat: no-repeat;
 }
 
+nav ul.icons li .twitter {
+  background-image: url('/images/twitter_32.png');
+}
+
+nav ul.icons li .github {
+  background-image: url('/images/github_32.png');
+}
+
+nav ul.icons li .linkedin {
+  background-image: url('/images/linkedin_32.png');
+}
+
+nav ul.icons li .rss {
+  background-image: url('/images/rss_32.png');
+}
+
+
+.icon {
+
+}
+
 aside {
+  margin-right: 5px;
   margin-bottom: 65px;
+}
+
+
+aside#bio {
+  margin-right: 0px;
+  margin-left: 5px;
 }
 
 aside:last-child {
@@ -197,11 +243,6 @@ aside header h3, nav header h3 {
   text-transform: uppercase;
 }
 
-nav ul li {
-  font:     1.2em inherit;
-  margin-bottom: 15px;
-  font-size:     1.2em;
-}
 
 aside a, section.meta nav a {
   color:           #aaa;
@@ -209,13 +250,6 @@ aside a, section.meta nav a {
   padding:         4px 0px;
 }
 
-section.meta:hover li.twitter {
-  background-image: url('/images/twitter.png');
-}
-
-section.meta:hover li.rss {
-  background-image: url('/images/rss.png');
-}
 
 section.meta:hover a {
   color: #71569E;
