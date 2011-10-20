@@ -1,11 +1,11 @@
 /* general --------------------- */
 
 p {
-  font: 1.4em ;
+  font-size : 1.4em ;
 }
 
 ol li, ul li {
-  font: 1em ;
+  font-size: 1em ;
 }
 
 p+p, p+ol, p+ul {
@@ -112,7 +112,8 @@ header#header p {
 }
 
 header#header h1 {
-  font:        italic 2em;
+  font-size:   2em;
+  font-style:  italic;
   float:       left;
   width:       50%;
   text-align:  left;
