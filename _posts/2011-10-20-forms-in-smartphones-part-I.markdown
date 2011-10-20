@@ -1,6 +1,6 @@
 ---
-Date: March 17, 2010
-title: Toyota's Journey from Waterfall to Lean Software Development
+Date: October 20, 2011
+title: Forms in IOS and Android (Part I)
 source: http://blog.crisp.se/henrikkniberg/2010/03/16/1268757660000.html
 layout: post
 category: process
