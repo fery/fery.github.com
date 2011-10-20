@@ -17,7 +17,6 @@
         {% capture date_format %}%A, %B %e{% endcapture %}
       {% endif %}
       <time pubdate datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time>
-      {% endif %}
     </p>
   </footer>
 </article>
